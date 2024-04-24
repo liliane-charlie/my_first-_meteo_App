@@ -11,3 +11,48 @@ body {
   border-radius: 16px;
   padding: 30px;
 }
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+.search-form-input {
+  background-color: rgb(186, 215, 241);
+  border: none;
+  font-size: 16px;
+  width: 80%;
+  padding: 15px 20px;
+}
+.search-button {
+  background-color: blueviolet;
+  border: none;
+  border-radius: 4%;
+  color: beige;
+  padding: 18px 30px;
+}
+.weatherAppData {
+  display: flex;
+  justify-content: space-between;
+}
+.weaterAppCity {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+.weatherAppDetails {
+  font-size: 16px;
+  line-height: 20px;
+}
+.weatherAppDetails strong {
+  color: red;
+}
+
+main {
+  padding: 30px 0;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
